@@ -1,25 +1,31 @@
-name: Darli's Uncle
-title: 叔的博客
-description: 努力做好手下的事情，不让时间干枯了双手 
-meta_description: "Darli's Uncle"
-image: /assets/images/profile.png
-
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
+permalink: /posts/:title.html
+excerpt_separator: "<!-- more -->"
 
-baseurl: '/'
-
-logo: false
-paginate: 15
-permalink: /:title
-
-twitter: darlisuncle
-username: 刘伟
-# Details for the RSS feed generator
+github: 850176300
+author: "liuwei"
+email: jellygameadscene@gmail.com
+name: "疯狂程序员个人博客"
 url: http://deardarli.cn
-author: "Darli's Uncle"
+domain: deardarli.cn
+all_categories: [
+["android", "Android开发","/posts/android.html"], 
+["program", "软件编程","/posts/program.html"],
+["web", "Web建站","/posts/web.html"], 
+["linux", "Linux相关","/posts/linux.html"],
+["read", "读书笔记","/posts/read.html"], 
+["other", "杂记","/posts/other.html"],
+["about", "关于","/about.html"]
+]
+
+paginate: 8
+paginate_path: "posts/page:num"
+timezone: Asia/Shanghai
+
+collections:
+  docs:
+    output: true
 
 gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
+ - jekyll-paginate

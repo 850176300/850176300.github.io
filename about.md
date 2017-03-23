@@ -1,6 +1,23 @@
 ---
 layout: page
-title: About me
+title: "关于：About"
 ---
+Welcome to visit my blog!
 
-<p> Software developer, bass player and coffee addict. You can get to know me better on <a href="https://github.com/ewertonorg">GitHub</a>, <a href="https://twitter.com/ewertonorg">Twitter</a>, <a href="https://www.goodreads.com/ewertonorg">Goodreads</a>.</p>
+#### 1.Personal Info
+Name: Darli's Uncle
+Gender: Male  
+City: Chengdu, China  
+Career: Unity3d developer
+
+#### 2.My Links
+Blog: <http://deardarli.com>  
+GitHub: <https://github.com/850176300>  
+LinkedIn: <http://www.linkedin.com/in/liuwei>  
+
+
+#### 3.Contract
+Email: jellygameadscene@gmail.com
+QQ: 850176300
+
+

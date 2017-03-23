@@ -3,11 +3,11 @@ title: 首页
 layout: post
 ---
 
-### 做好手头的事情，别让时间干枯了它
+## 做好手头的事情，别让时间干枯了它
 
-# 游戏开发爱好者，有喜欢的朋友可以一起研究，对翻墙服务器搭建有一定了解，想搭翻墙服务器的朋友可以聊聊。
+游戏开发爱好者，有喜欢的朋友可以一起研究，对翻墙服务器搭建有一定了解，想搭翻墙服务器的朋友可以聊聊。
 
-# 熟悉admob、chartboost、adcolony、mopub、Unityads等广告平台的集成，可以个你们一起探讨
+熟悉[Admob](http://www.google.cn/admob/)、[Chartboost](https://www.chartboost.com/?lang=zh-hans)、[Adcolony](http://www.adcolony.com/)、[Mopub](http://www.mopub.com/)、[Unityads](https://unity3d.com/cn/services/ads)等移动平台广告的集成，可以个你们一起探讨
 
 
 ## 博客平台

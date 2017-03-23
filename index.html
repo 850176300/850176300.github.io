@@ -1,44 +1,16 @@
 ---
-layout: index
-title: "强学力行、顺势而为"
+layout: default
 ---
-
-<!-- Loop output paged posts -->
-{% for post in paginator.posts %}
-<h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ post.date | date:"%Y-%m-%d" }}
-  </div>
-</h2>
-<hr>
-{{ post.excerpt }}
-	<p><h3><a href="{{ post.url }}">阅读全文 &raquo;</a></h3></p>
-<hr>
-{% endfor %}
-
-<!-- Pager indicator -->
-<ul class="pager">
-  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-  <li class="previous">
-    <a href="/">
-      &larr; 上一页
-    </a>
-  </li>
-  {% else %}
-  <li class="previous">
-    <a href="/posts/page{{ paginator.previous_page }}/index.html">
-      &larr; 上一页
-    </a>
-  </li>
-  {% endif %} {% endif %} {% if paginator.next_page %}
-  <li class="next">
-    <a href="/posts/page{{ paginator.next_page }}/index.html">
-      下一页 &rarr;
-    </a>
-  </li>
-  {% endif %}
-</ul>
+<div id="home" class="container">
+  <h1>Hi，我是 Peiwen Lu</h1>
+  <p>我是一名前端 / 孜孜不倦的折腾爱好者。</p>
+  <h2>/* 折腾项目 *\</h2>
+  <ul>
+    <li><a href="http://rebar.io" target="_blank">Rebar Grid Framework</a></li>
+    <li><a href="https://github.com/P233/Syntax-highlighting-for-Sass" target="_blank">Syntax Highlighting for Sass</a></li>
+    <li><a href="https://github.com/P233/Syntax-highlighting-for-JavaScript" target="_blank">Syntax Highlighting for JavaScript</a></li>
+    <li><a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll</a> <span>/</span> <a href="https://github.com/P233/3-Ghost" target="_blank">3-Ghost</a></li>
+    <li><a href="http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/" target="_blank">Emmet CSS Snippets</a></li>
+    <li><a href="https://github.com/P233?tab=repositories" target="_blank">更多...</a></li>
+  </ul>
+</div>

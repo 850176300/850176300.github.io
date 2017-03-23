@@ -3,7 +3,7 @@ title: Darli's Uncle
 email: "jellygameadscene@gmail.com"
 description: "疯狂程序员的博客"
 baseurl: ""
-url: "http://deardarli.cn"
+url: http://deardarli.cn
 permalink: /:year/:title
 
 

@@ -1,0 +1,25 @@
+name: Darli's Uncle
+title: 叔的博客
+description: 努力做好手下的事情，不让时间干枯了双手 
+meta_description: "Darli's Uncle"
+image: /assets/images/profile.png
+
+markdown: kramdown
+highlighter: rouge
+
+baseurl: '/'
+
+logo: false
+paginate: 15
+permalink: /:title
+
+twitter: darlisuncle
+username: 刘伟
+# Details for the RSS feed generator
+url: http://deardarli.cn
+author: "Darli's Uncle"
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag

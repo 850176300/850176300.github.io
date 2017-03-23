@@ -1,0 +1,31 @@
+# Site settings
+title: Darli's Uncle
+email: "jellygameadscene@gmail.com"
+description: "疯狂程序员的博客"
+baseurl: ""
+url: "http://deardarli.cn"
+permalink: /:year/:title
+
+
+# Social account
+twitter:  darlisuncle
+# weibo:    ID
+github:   850176300
+codepen:  P233
+# dribbble: username
+
+
+# Comment
+# disqus_shortname:
+
+
+# Google Analytics
+google_analytics: UA-60830414-1
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
